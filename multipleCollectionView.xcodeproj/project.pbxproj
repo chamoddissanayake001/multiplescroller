@@ -13,6 +13,8 @@
 		C8A2B20426590C3900EC42B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A2B20226590C3900EC42B3 /* Main.storyboard */; };
 		C8A2B20626590C3A00EC42B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A2B20526590C3A00EC42B3 /* Assets.xcassets */; };
 		C8A2B20926590C3A00EC42B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A2B20726590C3A00EC42B3 /* LaunchScreen.storyboard */; };
+		C8A2B21326590F0100EC42B3 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2B21226590F0100EC42B3 /* FirstCollectionViewCell.swift */; };
+		C8A2B217265919B700EC42B3 /* SecColViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2B216265919B700EC42B3 /* SecColViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C8A2B20526590C3A00EC42B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8A2B20826590C3A00EC42B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8A2B20A26590C3A00EC42B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A2B21226590F0100EC42B3 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		C8A2B216265919B700EC42B3 /* SecColViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecColViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C8A2B20526590C3A00EC42B3 /* Assets.xcassets */,
 				C8A2B20726590C3A00EC42B3 /* LaunchScreen.storyboard */,
 				C8A2B20A26590C3A00EC42B3 /* Info.plist */,
+				C8A2B21226590F0100EC42B3 /* FirstCollectionViewCell.swift */,
+				C8A2B216265919B700EC42B3 /* SecColViewCell.swift */,
 			);
 			path = multipleCollectionView;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				C8A2B20126590C3900EC42B3 /* ViewController.swift in Sources */,
 				C8A2B1FD26590C3900EC42B3 /* AppDelegate.swift in Sources */,
 				C8A2B1FF26590C3900EC42B3 /* SceneDelegate.swift in Sources */,
+				C8A2B21326590F0100EC42B3 /* FirstCollectionViewCell.swift in Sources */,
+				C8A2B217265919B700EC42B3 /* SecColViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
